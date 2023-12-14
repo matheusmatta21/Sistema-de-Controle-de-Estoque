@@ -1,1 +1,1 @@
-# Sistema-de-Controle-de-Estoque
+Outra atividade, não a do meu grupo, da matéria LNPG
