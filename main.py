@@ -87,7 +87,4 @@ botaoLimpar.pack()
 botaoVisualizar = Button(window, text="Visualizar Produtos", command=verProdutos)
 botaoVisualizar.pack()
 
-#funcoes dos botoes
-
-
 window.mainloop()
