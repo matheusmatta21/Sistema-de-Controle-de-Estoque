@@ -32,12 +32,12 @@ def validar(nomeBase, quantidadeBase, precoBase, geladoBase):
 
 
 def escreverProdutos():
-    nomeBase = inputNome.get()
-    quantidadeBase = inputQuantidade.get()
-    precoBase = inputPreco.get()
-    geladoBase = inputCampo.get()
+    nome = inputNome.get()
+    quantidade = inputQuantidade.get()
+    preco = inputPreco.get()
+    gelado = inputCampo.get()
     arquivo = open("estoque.txt", "a", encoding="utf-8")
-    arquivo.write(f"{nomeBase},{quantidadeBase},{precoBase},{geladoBase}\n")
+    arquivo.write(f"{nome},{quantidade},{preco},{gelado}\n")
     arquivo.close()
 
 
