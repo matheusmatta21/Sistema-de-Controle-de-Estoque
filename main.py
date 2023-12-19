@@ -7,7 +7,7 @@ from tkinter import messagebox
 
 def validar(nomeBase, quantidadeBase, precoBase, geladoBase):
     booleano = True
-    if nomeBase == "" or nomeBase == " ":
+    if nomeBase.strip() == "" or nomeBase.strip() == " ":
         messagebox.showerror(title="Erro", message="Digite um nome!")
         booleano = False
     elif (
